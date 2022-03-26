@@ -1,0 +1,41 @@
+# env setting
+spring:
+  profiles: local
+
+# logging setting
+logging:
+  level:
+    root: INFO
+
+# server setting
+server:
+  port: 9099
+
+# enable setting
+drm:
+  enable:
+    mock: true
+
+# msg setting
+msg:
+  serverDear:
+    url: https://sc.ftqq.com/{0}.send
+    secretKey:
+  pushPlus:
+    url: http://pushplus.hxtrip.com/send
+    token:
+  dingTalk:
+    url: https://oapi.dingtalk.com/robot/send
+    token:
+    secret:
+
+# sign setting
+sign:
+  bili:
+    cookie:
+  tieBa:
+    skip:
+      name:
+    cookie:
+  miHaYo:
+    cookie:
